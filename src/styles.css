@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+label,
+p,
+li {
+  color: white;
+}
+
+h1 {
+  margin-top: 100px;
+  color: white;
+  font-size: 70px;
+}
+
+h3 {
+  margin: 5px;
+  display: inline;
+  font-size: 30px;
+}
+
+.country-title-btn {
+  text-decoration: underline white;
+  background-color: transparent;
+  border: none;
+}
+
+h3:hover {
+  color: rgb(40, 114, 143);
+  text-decoration: underline rgb(40, 114, 143);
+  cursor: pointer;
+}
+
+p {
+  color: white;
+  font-size: 22px;
+  margin: 0px;
+}
+
+h4 {
+  font-size: 35px;
+  margin: 0px;
+}
+
+input {
+  font-size: 20px;
+  width: 100%;
+  height: 40px;
+}
+
+label {
+  color: white;
+  font-size: 40px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 5px;
+  overflow: scroll;
+}
+
+.countries-ul {
+  text-align: center;
+  width: 100%;
+}
+
+.collapsible {
+  margin: 50px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.countrycard {
+  border: 1px solid black;
+}
+
+.main-country-title {
+  text-decoration: underline;
+}
+
+.app-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 75%;
+  height: 100%;
+}
+
+#root {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.countryCard,
+.country {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+}
+
+.country {
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.flagholder {
+  display: inline-block;
+  margin-bottom: -20px;
+  padding: -10px;
+
+  font-size: 30px;
+}
+
+.country-data-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.country-data-left,
+.country-data-right,
+.country-data-center {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 33%;
+}
+
+.country-data-center {
+  text-align: center;
+}
+
+.flag {
+  width: 95%;
+  margin: auto auto;
+}
+
+h2:hover {
+  color: rgb(112, 189, 189);
+}
